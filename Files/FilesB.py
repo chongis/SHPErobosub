@@ -28,10 +28,17 @@ def socket_test():
                     while(written):
                         data = conn.recv(4069)
 <<<<<<< HEAD
+<<<<<<< HEAD
                         written = os.write(fileout,data)    
 =======
                         written = os.write(fileout,data)
                         print(written)
+=======
+                        written = os.write(fileout,data)
+                        print(written)
+=======
+                        written = os.write(fileout,data)    
+>>>>>>> master
 >>>>>>> master
                     os.close(fileout)
                     print("Done Writing")
