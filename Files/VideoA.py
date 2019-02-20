@@ -35,5 +35,3 @@ def send_resized_image(image_path):
         os.close(filein)
         s.close()
         
-
-##resize_image('scotland1.jpg')
